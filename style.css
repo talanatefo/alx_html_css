@@ -1,3 +1,6 @@
+html {
+  background: #c271ff;
+}
 @font-face {
   font-family: sanspro;
   src: url(source-sans-pro.regular.ttf);
@@ -9,6 +12,7 @@ body {
   background-size: auto 1093px;
   font-family: sanspro, sans-serif;
 }
+
 nav a {
   display: inline-block;
   margin: 20px 10px;
@@ -96,4 +100,29 @@ button {
 .pro h3 {
   font-weight: bold;
   font-size: 27px;
+}
+.quotesec {
+  background: #c271ff;
+}
+.Quote {
+  display: flex;
+  flex-direction: row;
+  height: 392px;
+  background: #c271ff;
+  color: white;
+  align-items: center;
+  margin-top: auto;
+}
+.Quote img {
+  border-radius: 0px solid;
+  border-radius: 100px;
+  margin-right: 50px;
+  margin-left: 260px;
+}
+.Quote h3 {
+  font-weight: bold;
+  font-size: 22;
+}
+.Quote p {
+  font-style: italic;
 }
