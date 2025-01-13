@@ -208,3 +208,46 @@ button {
 .stars div:nth-of-type(5) {
   color: #979797;
 }
+.membership {
+  background-color: #071629;
+  color: white;
+  height: 502px;
+}
+.membership h2 {
+  font-size: 32px;
+  font-weight: thin;
+  text-align: center;
+}
+
+#Free {
+  font-weight: bolder;
+  color: #c271ff;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 86px;
+}
+
+.card {
+  width: 257px;
+  height: 153px;
+  text-align: center;
+  font-size: 14;
+}
+.card img {
+  height: 35.35px;
+  width: 43.67;
+  margin: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.card h3 {
+  font-size: bold;
+  font-size: 18px;
+}
+.membership button {
+  margin-bottom: 52px;
+}
