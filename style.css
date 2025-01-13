@@ -125,4 +125,86 @@ button {
 }
 .Quote p {
   font-style: italic;
+  color: white;
+  font-weight: lighter;
+}
+.videoheading {
+  font-size: 32px;
+  margin-top: 84px;
+  margin-bottom: 84px;
+  margin-left: 592px;
+  text-align: center;
+  display: inline-block;
+}
+.popular {
+  font-weight: bold;
+  color: #c271ff;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 164px;
+  margin-right: 164px;
+  color: #979797;
+}
+
+.video {
+  margin: 10px;
+  width: 255px;
+  height: 335px;
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  top: 50px;
+  bottom: 200px;
+  left: 80px;
+  right: 70px;
+  width: 64px;
+  height: 64px;
+}
+.video h3 {
+  color: black;
+  font-size: 16;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.video h4 {
+  color: #c271ff;
+  font-weight: bold;
+  font-size: 14;
+}
+.video :not(:first-child) {
+  margin-left: 10px;
+}
+
+.stars p {
+  display: block;
+  margin-left: auto;
+}
+.reviewer {
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  margin: 10px auto;
+  align-items: center;
+}
+.reviewer img {
+  display: block;
+  margin-right: 20px;
+  border: 0px solid;
+  border-radius: 100px;
+}
+.stars {
+  display: flex;
+  color: #c271ff;
+  height: 15px;
+  height: 15px;
+}
+.stars div:nth-of-type(5) {
+  color: #979797;
 }
