@@ -290,3 +290,42 @@ button {
   font-size: 14px;
   color: #838a94;
 }
+
+.footer {
+  background-color: #071629;
+  height: 249px;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  border-top: solid 80px #071629;
+}
+.items :nth-child(3) {
+  color: white;
+}
+
+.copywrite {
+  margin-top: 100px;
+  color: #333f4f;
+}
+.items img {
+  margin-top: 20px;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+.socials div {
+  margin: 10px;
+  border: solid 0px;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: #071629;
+  text-align: center;
+}
+.socials i {
+  margin-top: 5px;
+}
