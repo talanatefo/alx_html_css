@@ -251,3 +251,42 @@ button {
 .membership button {
   margin-bottom: 52px;
 }
+
+.faq {
+  background: white;
+  height: 858px;
+  border-top: solid white 84px;
+}
+.faq h2 {
+  font-size: 60px;
+  text-align: center;
+}
+.faqcards {
+  height: 707px;
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 0px;
+}
+
+.faqcard {
+  width: 350px;
+  height: 242px;
+  border: solid 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqcard h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.faqcard p {
+  font-size: 14px;
+  color: #838a94;
+}
