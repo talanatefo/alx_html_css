@@ -2,7 +2,7 @@ In this project we are building a responsive website whcih has the below interfa
 
 For desktop, the website will look like the below:
 
-![alt text](01_headphones_mobile@2x.png)
+![alt text](01_headphones_desktop@2x.png)
 
 For tablets:
 
@@ -10,4 +10,4 @@ For tablets:
 
 And finally for mobile , it will look like the below:
 
-![alt text](01_headphones_mobile@2x-1.png)
+![alt text](01_headphones_mobile@2x.png)
