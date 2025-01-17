@@ -1,0 +1,69 @@
+@font-face {
+  font-family: sanspro;
+  src: url(fonts/source-sans-pro.regular.ttf);
+}
+
+body {
+  font-family: sanspro, sans-serif;
+}
+
+.banner {
+  background-image: url(images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 800px;
+  color: white;
+}
+
+.navbar a {
+  display: margin;
+  margin: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.intro {
+  margin-top: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+.intro h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.intro h2 {
+  font-size: 16px;
+}
+
+.intro p {
+  font: size 16px;
+  font-weight: normal;
+}
+
+button {
+  border: 0px solid;
+  border-radius: 30px;
+  background-color: #ff6565;
+  margin-bottom: 50px;
+  padding: 10px 25px;
+  transition: background-color 0.5s ease;
+}
+button:hover {
+  background-color: rgb(22, 32, 59);
+}
+button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-right: 20px;
+  background: #ff6565;
+}
