@@ -67,3 +67,29 @@ button a {
   margin-right: 20px;
   background: #ff6565;
 }
+
+.menu_icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {
+    display: none;
+  }
+  .menu_icon {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin-left: 250px;
+  }
+
+  .intro {
+    text-align: left;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner {
+    width: 600px;
+  }
+}
