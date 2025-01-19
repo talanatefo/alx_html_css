@@ -72,6 +72,9 @@ button a {
   display: none;
 }
 @media screen and (max-width: 600px) {
+  body {
+    max-width: 100%;
+  }
   nav a:not(:first-child) {
     display: none;
   }
@@ -79,17 +82,22 @@ button a {
     width: 30px;
     height: 30px;
     display: inline;
-    margin-left: 250px;
+    margin-left: 0%;
+    margin-right: auto;
+  }
+  .logo {
+    margin: 20px;
   }
 
   .intro {
     text-align: left;
-    width: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    align-items: center;
+    padding: 20px;
   }
   .banner {
-    width: 600px;
+    max-width: 100%;
   }
 }
