@@ -5,14 +5,18 @@
 
 body {
   font-family: sanspro, sans-serif;
-}
-
-.banner {
+  padding: 0px;
+  margin: 0px auto;
+  border: 0px;
   background-image: url(images/headphones_hero_1.jpg);
   background-repeat: no-repeat;
-  width: 1400px;
+  background-position: center;
+  background-size: cover;
   height: 800px;
   color: white;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navbar a {
@@ -22,12 +26,24 @@ body {
   color: white;
   font-weight: bold;
   font-size: 12px;
+  transition: 0.2s linear;
+}
+.navbar a:hover {
+  color: #ff6565;
+}
+.navbar {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro {
   margin-top: 300px;
   text-align: center;
   font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .intro h1 {
   font-size: 32px;
@@ -68,36 +84,40 @@ button a {
   background: #ff6565;
 }
 
-.menu_icon {
+.dropbtn {
   display: none;
 }
-@media screen and (max-width: 600px) {
-  body {
-    max-width: 100%;
+
+@media screen and (max-width: 480px) {
+  html body {
+    width: 100%;
   }
+
   nav a:not(:first-child) {
     display: none;
   }
-  .menu_icon {
-    width: 30px;
-    height: 30px;
-    display: inline;
-    margin-left: 0%;
-    margin-right: auto;
-  }
-  .logo {
-    margin: 20px;
+  .navbar {
+    width: 100%;
   }
 
   .intro {
-    text-align: left;
     display: flex;
-    align-items: center;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    margin: auto 0px;
   }
-  .banner {
-    max-width: 100%;
+  .dropbtn {
+    display: inline;
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    padding: 0%;
+    background: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover {
+    background: none;
+    cursor: pointer;
   }
 }
