@@ -5,14 +5,18 @@
 
 body {
   font-family: sanspro, sans-serif;
-}
-
-.banner {
+  padding: 0px;
+  margin: 0px auto;
+  border: 0px;
   background-image: url(images/headphones_hero_1.jpg);
   background-repeat: no-repeat;
-  width: 1400px;
+  background-position: center;
+  background-size: cover;
   height: 800px;
   color: white;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navbar a {
@@ -22,12 +26,25 @@ body {
   color: white;
   font-weight: bold;
   font-size: 12px;
+  transition: 0.2s linear;
+}
+.navbar a:hover {
+  color: #ff6565;
+}
+
+.navbar {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro {
   margin-top: 300px;
   text-align: center;
   font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .intro h1 {
   font-size: 32px;
@@ -68,6 +85,10 @@ button a {
   background: #ff6565;
 }
 
+.dropbtn {
+  display: none;
+}
+
 .offering {
   margin-top: 110px;
   display: block;
@@ -76,13 +97,14 @@ button a {
   width: 637px;
   height: 184px;
   margin-bottom: 85px;
+  color: black;
 }
 
 .offering p {
   text-align: bottom;
 }
 .cards {
-  width: 1002px;
+  width: 1000px;
   height: 193px;
   display: flex;
   flex-direction: row;
@@ -91,11 +113,13 @@ button a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 110px;
+  color: black;
 }
 
 .card {
   height: 193px;
   width: 207px;
+  color: black;
 }
 
 .card p {
@@ -111,4 +135,54 @@ button a {
   display: block;
   margin-left: 50px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  html body {
+    width: 100%;
+  }
+
+  nav a:not(:first-child) {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0px;
+  }
+  .dropbtn {
+    display: inline;
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    padding: 0%;
+    background: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover {
+    background: none;
+    cursor: pointer;
+  }
+  .offering {
+    margin-top: 250px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    margin-bottom: 85px;
+    color: black;
+  }
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
 }
