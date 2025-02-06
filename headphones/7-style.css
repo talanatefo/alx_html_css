@@ -1,0 +1,525 @@
+@font-face {
+  font-family: sanspro;
+  src: url(fonts/source-sans-pro.regular.ttf);
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sanspro, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  color: white;
+}
+html {
+  width: 100%;
+}
+
+.first-sec {
+  background-image: url(images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.navbar a {
+  display: margin;
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.2s linear;
+}
+.navbar a:hover {
+  color: #ff6565;
+}
+
+.navbar {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  margin-top: 300px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.intro h2 {
+  font-size: 16px;
+}
+
+.intro p {
+  font: size 16px;
+  font-weight: normal;
+}
+
+button {
+  border: 0px solid;
+  border-radius: 30px;
+  background-color: #ff6565;
+  margin-bottom: 50px;
+  padding: 10px 25px;
+  transition: background-color 0.5s ease;
+}
+button:hover {
+  background-color: rgb(22, 32, 59);
+}
+button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-right: 20px;
+  background: #ff6565;
+}
+
+.dropbtn {
+  display: none;
+}
+
+.offering {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 637px;
+  height: 184px;
+  margin-bottom: 85px;
+  color: black;
+}
+
+.offering p {
+  text-align: bottom;
+}
+
+.heading1 {
+  color: #071629;
+  text-align: center;
+  font-size: 50px;
+  display: block;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.cards {
+  width: 800px;
+  height: 193px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 110px;
+  color: black;
+}
+
+.card {
+  height: 193px;
+  width: 207px;
+  color: black;
+}
+
+.card p {
+  display: block;
+  margin-bottom: 0px;
+  width: 207px;
+  height: 52px;
+}
+
+.card svg {
+  width: 694.2x;
+  height: 65.36px;
+  display: block;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.third-sec {
+  background-image: url(images/headphones_hero_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.desc {
+  height: 350px;
+  width: 988px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.desc p {
+  font-size: 16px;
+  color: white;
+}
+.pentagons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.pent-class {
+  display: flex;
+  flex-direction: row;
+}
+
+.pentagon {
+  background-image: url(images/pentagone.png);
+  height: 190px;
+  width: 190px;
+  margin: 10px;
+  font-size: 14px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.pentagon h2 {
+  font-size: 46px;
+  font-weight: bold;
+  color: white;
+}
+.pent-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  align-items: center;
+  left: 35px;
+  bottom: 30px;
+  top: 50px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 335px;
+  height: 400px;
+  justify-content: center;
+  color: #071629;
+  margin: 0 auto;
+}
+.contact h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.input-field {
+  outline: none;
+  border: 0px;
+}
+.contact button {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #071629;
+  height: 249px;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  border-top: solid 80px #071629;
+}
+.items :nth-child(3) {
+  color: white;
+}
+
+.copywrite {
+  margin-top: 100px;
+  color: #333f4f;
+}
+.items img {
+  margin-top: 20px;
+  width: 161px;
+  height: 32px;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+.socials div {
+  margin: 10px;
+  border: solid 0px;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: #071629;
+  text-align: center;
+}
+.socials i {
+  margin-top: 5px;
+}
+
+.heading1 {
+  animation-name: grow;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+
+.heading2 {
+  animation-name: drop;
+  animation-duration: 2s;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+@keyframes grow {
+  50% {
+    transform: scale(2, 2);
+  }
+}
+
+@keyframes drop {
+  to {
+    transform: translateY(80%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .third-sec {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+  }
+
+  nav a:not(:first-child) {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .dropbtn {
+    display: inline;
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    padding: 0%;
+    background: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover {
+    background: none;
+    cursor: pointer;
+  }
+  .second-sec {
+    margin: 0px;
+    padding: 0px;
+  }
+  .offering {
+    margin-top: 50px;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+
+    color: black;
+    font-size: clamp(7vw);
+  }
+  .cards {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: black;
+  }
+  .third-sec {
+    margin-top: 500px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .heading2 {
+    font-size: 40px;
+  }
+
+  .desc {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .desc p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .pentagons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .pentagon {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 7px;
+    justify-items: center;
+    position: relative;
+  }
+  .pent-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    right: 0px;
+    left: 0px;
+    top: 10px;
+    bottom: 25px;
+    width: 100px;
+  }
+  .pent-class {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pentagon h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .pentagon p {
+    font-size: 8px;
+  }
+  .contact {
+    width: 100%;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .socials {
+    position: relative;
+    bottom: 100px;
+  }
+  .copywrite {
+    position: relative;
+    bottom: 10px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+  .navbar a {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+  .offering {
+    width: 100%;
+    text-align: center;
+  }
+  .desc {
+    width: 100%;
+  }
+  .pentagons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .pentagon {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 7px;
+    justify-items: center;
+    position: relative;
+  }
+  .pentagon div {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+
+    color: white;
+  }
+  .pentagon div p {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .pent-class {
+    margin-bottom: 50px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}
